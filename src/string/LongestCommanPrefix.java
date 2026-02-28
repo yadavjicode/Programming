@@ -4,7 +4,6 @@ public class LongestCommanPrefix {
     // strs = ["flower","flow","flight"]
     // output= fl
 
-    
     public static void main(String[] args) {
 
         System.out.println(longestCommonPrefix(new String[] { "aaa", "aa", "aaa" }));
