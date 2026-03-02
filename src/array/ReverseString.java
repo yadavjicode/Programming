@@ -14,7 +14,6 @@ public class ReverseString {
             temp = s[i];
             s[i] = s[(s.length - 1) - i];
             s[(s.length - 1) - i] = temp;
-
         }
         return s;
     }
