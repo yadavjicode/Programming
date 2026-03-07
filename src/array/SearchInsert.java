@@ -20,7 +20,6 @@ public class SearchInsert {
             } else {
                 return binaryInsert(nums, target, low, mid - 1);
             }
-
         } else {
             return low;
         }

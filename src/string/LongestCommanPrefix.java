@@ -5,9 +5,7 @@ public class LongestCommanPrefix {
     // output= fl
 
     public static void main(String[] args) {
-
         System.out.println(longestCommonPrefix(new String[] { "aaa", "aa", "aaa" }));
-
     }
 
     public static String longestCommonPrefix(String[] strs) {
@@ -36,8 +34,10 @@ public class LongestCommanPrefix {
 
                 if (temp == strs.length) {
                     result.append(currentChar);
+
                 } else {
                     return result.toString();
+
                 }
 
             }

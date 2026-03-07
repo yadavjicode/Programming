@@ -31,7 +31,6 @@ public class SortOneBits {
                 }
             }
         }
-
         return arr;
     }
 
