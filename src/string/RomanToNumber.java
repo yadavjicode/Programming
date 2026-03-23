@@ -22,7 +22,7 @@ public class RomanToNumber {
      */
 
     public static void main(String[] args) {
-        System.out.println(romanToInt("MCMXCIV"));
+        System.out.println(romanToInt("III"));
     }
 
     public static int romanToInt(String s) {
