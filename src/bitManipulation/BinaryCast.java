@@ -20,12 +20,9 @@ public class BinaryCast {
     public static int binaryToDecimal(String a) {
         int result = 0;
         for (int i = 0; i < a.length(); i++) {
-            result = (result << 1) + (a.charAt(i)-'0');
-
+            result = (result << 1) + (a.charAt(i) - '0');
         }
-
         return result;
-
     }
 
 }
